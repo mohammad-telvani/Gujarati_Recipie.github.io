@@ -1,0 +1,60 @@
+*{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#pageheading{
+    display: flex;
+}
+.Left_side{
+    background-color: cyan;
+}
+.Left_side>figure>img{
+    margin-top: 10px;
+    border-radius: 200px;
+}
+.Left_side>figcaption>h2{
+    align-items: center;
+    margin-left: 20px;
+    color: darkblue;
+}
+.Left_side>figcaption>h4{
+    align-items: center;
+    margin-left: 40px;
+    color: black;
+}
+.Left_side>h2
+{
+    align-items: center;
+    margin-left: 40px;
+    color: blue;
+}
+.Left_side>ul>li>{
+    list-style-type: disc;
+    padding: 2px;
+    margin-bottom: 5px;
+    padding-top: 10px
+}
+ul>li{
+    list-style-type: none;
+    color: darkslategray;
+}
+.Right_side{
+    
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color:rgb(34, 83, 83);
+    color: cyan;
+    padding-left: 10px;
+    
+}
+.Right_side>ul>li{
+    list-style-type: disc;
+    padding-top: 5px;
+    color: cyan;
+
+}
+.Right_side>h2{
+    color: wheat;
+    
+}

@@ -1,0 +1,460 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#pageheading{
+    display: flex;
+    left: 0px;
+    top: 0px;
+    position:sticky;
+    justify-content: space-between;
+    background-color: #252B48;
+    align-items: center;
+}
+.sitename{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#F7E987;
+    margin: 10px;
+    
+
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin: 10px
+}
+.menu>li>a{
+    margin: 10px;
+    font-size: larger;
+    background-color:#5B9A8B;
+    color: #F7E987;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    
+}
+.menu>li>a:hover{
+    color: #252B48;
+    background-color: #F7E987;
+}
+#Snacks{
+    color: #252B48;
+    background-color:#5B9A8B;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+   
+
+.snacks_content{
+    display: flex;
+    background-color:#5B9A8B;
+    align-items: center;
+}
+.snacks_content>a>figure>img{
+    justify-content: space-between;
+    margin: 40px;
+}
+
+
+#Shak{
+    color: #252B48;
+    background-color:#5B9A8B;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.shaak{
+    display: flex;
+    background-color:#5B9A8B;
+    align-items: center;
+}
+.shaak>a>figure>img{
+    justify-content: space-between;
+    margin: 20px;
+
+}
+#Athana{
+    color: #252B48;
+    background-color:#5B9A8B;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.athana{
+    display: flex;
+    background-color:#5B9A8B;
+    align-items: center;
+}
+.athana>a>figure>img{
+    justify-content: space-between;
+    margin: 20px;
+
+}
+#Sweets{
+    color: #252B48;
+    background-color:#5B9A8B;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.sweets{
+    display: flex;
+    background-color:#5B9A8B;
+    align-items: center;
+
+}
+.sweets>a>figure>img{
+    justify-content: space-between;
+    margin: 20px;
+
+}
+#Mukhwas{
+    color: #252B48;
+    background-color:#5B9A8B;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.mukhwas{
+    display: flex;
+    background-color:#5B9A8B;
+    align-items: center;
+}
+.mukhwas>a>figure>img{
+    justify-content: space-between;
+    margin: 20px;
+
+}
+#Juice{
+    color: #252B48;
+    background-color:#5B9A8B;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.juice{
+    display: flex;
+    background-color:#5B9A8B;
+    align-items: center;
+}
+.juice>a>figure>img{
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+figcaption{
+    color: #F7E987;
+    font-family:'Montserrat', sans-serif; 
+    text-emphasis: none;
+    text-shadow: slategray;
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    color: #F7E987;
+    background-color: #252B48;
+    
+}
+footer>div{
+    padding: 5px;
+}
+.snacks{
+    display: flex;
+    background-color: #F7E987;
+    border: 1px solid #252B48;
+    color: #252B48;
+    padding: 1px;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.snacks>p{
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+    word-spacing: 5px;
+    line-height:150%;
+    padding: 5px;
+    
+}
+.snacks>a>figure>img{
+    box-shadow: 5px 5px 5px gray;
+    border-radius:800px;
+}
+.snacks>a>figcaption{
+    color: #252B48;
+    text-align: center;
+}
+.shaakcontent{
+    display: flex;
+    background-color: #F7E987;
+    border: 1px solid #252B48;
+    color: #252B48;
+    padding: 1px;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.shaakcontent>a>figure>img{
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 300px
+}
+.shaakcontent>a>figcaption{
+    color: #252B48;
+    text-align: center;
+}
+.shaakcontent>p{
+
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+     word-spacing: 5px;
+    line-height:150%;
+    padding: 5px;
+    
+}
+.athanacontent{
+
+    display: flex;
+    background-color: #F7E987;
+    border: 1px solid #252B48;
+    color: #252B48;
+    padding: 1px;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.athanacontent>p{
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+     word-spacing: 5px;
+    line-height:150%;
+    padding: 5px;
+    
+}
+.athanacontent>a>figure>img{
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 300px
+}
+.athanacontent>a>figcaption{
+    color: #252B48;
+    text-align: center;
+}
+.sweetscontent{
+    display: flex;
+    background-color: #F7E987;
+    border: 1px solid #252B48;
+    color: #252B48;
+    padding: 1px;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.sweetscontent>a>figure>img{
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 300px
+
+}
+.sweetscontent>p{
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+     word-spacing: 5px;
+    line-height:150%;
+    padding: 5px;
+
+}
+.sweetscontent>a>figcaption{
+    color: #252B48;
+    text-align: center;
+}
+.mukhwascontent{
+    display: flex;
+    background-color: #F7E987;
+    border: 1px solid #252B48;
+    color: #252B48;
+    padding: 1px;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.mukhwascontent>a>figure>img{
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 300px;
+
+}
+.mukhwascontent>a>figcaption{
+    color: #252B48;
+    text-align: center;
+
+}
+.mukhwascontent>p{
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+     word-spacing: 5px;
+    line-height:150%;
+    padding: 5px;
+
+}
+.juicecontent{
+    display: flex;
+    background-color: #F7E987;
+    border: 1px solid #252B48;
+    color: #252B48;
+    padding: 1px;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.juicecontent>a>figcaption{
+    color: #252B48;
+    text-align: center;
+
+}
+.juicecontent>a>figure>img{
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 300px
+
+
+}
+.juicecontent>p{
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+     word-spacing: 5px;
+    line-height:150%;
+    padding: 5px;
+}
+#Chorafali{
+    display: flex;
+    background-color: #5B9A8B;
+}
+.chorafali>figure>img{
+    margin-top: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 10px;
+    border-radius: 10px;
+}
+.chorafali>iframe{
+    margin-top: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.chorafalicontent{
+    display: flex;
+    padding: 25px;
+    color: #F7E987;
+    font-family: 'Montserrat', sans-serif;
+}
+.chorafalicontent>ol>li{
+    margin-left: 30px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+  
+    
+}
+.chorafalicontent>ul>li{
+     color: black;
+   
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.chorafalicontent>ol>h3{
+    text-align: center;
+    color: #252B48;
+    border-radius: 10px;
+    border: solid #445069;
+    background-color: #F7E987;
+    border-spacing: 20px;
+    padding-left: 6px;
+    font-family: 'Montserrat', sans-serif;
+}
+.chorafalicontent>ul>h3{
+    text-align: center;
+    color: #252B48;
+    border-radius: 10px;
+    border: solid #445069;
+    background-color: #F7E987;
+    border-spacing: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.snacks_content>a>figure>img{
+    margin-right: 0px;
+    margin-left: 0px;
+    
+    padding: 30px;
+    
+}
+
+        /* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+        @media (min-width: 1281px) {
+            /* code in this block will be applied only if device width>1281 */
+              
+            }
+        
+          /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            /* code in this block will be applied only if device width>1025 and <1280 */
+          }
+          
+          /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+          @media (min-width: 768px) and (max-width: 1024px) {
+            /* code in this block will be applied only if device width>768 and <1024 */
+          }
+          /* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+          @media (min-width: 481px) and (max-width: 767px) {
+            /* code in this block will be applied only if device width>481 and <767 */
+          }
+          
+          /*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */ 
+          @media (min-width: 320px) and (max-width: 480px) {
+            /* code in this block will be applied only if device width>320 and <480 */
+
+            #pageheading{
+                
+                
+
+            }
+               
+          }
+
+
+
+
+
+
+
